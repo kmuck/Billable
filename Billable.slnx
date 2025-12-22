@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Billable.ApiGateway/Billable.ApiGateway.csproj" />
+    <Project Path="src/Billable.AppHost/Billable.AppHost.csproj" />
+    <Project Path="src/Billable.Services.Identity/Billable.Services.Identity.csproj" />
+    <Project Path="src/Billable.Shared.Contracts/Billable.Shared.Contracts.csproj" />
+    <Project Path="src/Billable.Shared.Defaults/Billable.Shared.Defaults.csproj" />
+  </Folder>
+</Solution>

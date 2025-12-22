@@ -30,10 +30,13 @@ Billable is built as a microservices-based system using the .NET ecosystem.
 - Billable.Shared.Contracts
 - Billable.Shared.Defaults
 
-## Storage
+## Getting Started
 
-- PostgreSQL
-- MongoDB
+```
+dotnet restore
+dotnet build
+dotnet run --project src/Billable.AppHost
+```
 
 ## Purpose
 

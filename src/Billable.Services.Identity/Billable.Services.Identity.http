@@ -1,0 +1,6 @@
+@Billable.Services.Identity_HostAddress = http://localhost:5287
+
+GET {{Billable.Services.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
