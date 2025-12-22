@@ -8,4 +8,13 @@
     <UserSecretsId>5f6bee0c-b307-4813-bdef-dc70b4998eba</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Billable.ApiGateway\Billable.ApiGateway.csproj" />
+    <ProjectReference Include="..\Billable.Services.Identity\Billable.Services.Identity.csproj" />
+  </ItemGroup>
+
 </Project>
